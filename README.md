@@ -27,5 +27,5 @@ The end around means that we end up taking from the LSB. This is difficult to ex
 
 
 ### 3 - What is the edge case and problem with Two’s Complement number representation?
-
+The edge case is that there is 1 more negative number than positive for the same amount of bits. This means for 4 bits it covers -8 through to 7, which causes signed overflow.
 
